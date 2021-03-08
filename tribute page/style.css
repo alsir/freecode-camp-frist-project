@@ -1,0 +1,65 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+body{
+  margin:0;
+  padding:0;
+  font-size:16px;
+  font-family: 'Open Sans', sans-serif;
+  color:hsl(234, 12%, 34%); 
+  background-color:hsl(0, 0%, 98%);
+}
+.header{
+	width: 100%;
+	background:  hsl(0, 0%, 98%);
+}
+.header h1{
+	font-weight: 600;
+	text-align: center;
+	line-height: 1.5rem;
+	letter-spacing: 1.5px;
+}
+.header h3{
+	text-align: center;
+	margin-top: 0;
+	font-weight: 400;
+	font-size: 1.4rem;
+}
+img{
+	width: 40vw;
+	height: auto;
+
+}
+#main{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#img-caption{
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 10px;
+	font-weight: 400;
+}
+#para{
+	text-align: left;
+	margin-left: 30%;
+	margin-right:30%;
+	padding-top: 20px;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	font-weight: 400;
+
+}
+a{
+	text-decoration: none;
+	color: grey;
+}
+a:hover{
+	color: blue;
+}
+q{
+	margin-top: 0;
+	font-weight: 400;
+	font-size: 1.4rem;
+}
